@@ -373,7 +373,7 @@ apt-get install gawk -y > /dev/null 2>&1
 [[ -e $_tmp4 ]] && rm $_tmp4
 rm $_dr && rm $_idioma
 cd /etc/adm-lite
-wget https://raw.githubusercontent.com/powermx/AMXADM/IDIOMA_VPS/$1/idioma
+wget https://raw.githubusercontent.com/theonejpas/adm-vps/IDIOMA_VPS/$1/idioma
 unset txt
 touch $HOME/fim
 exit 0
@@ -457,7 +457,7 @@ txt_ofuscatw=$(echo $txtofus|rev)
 fun_atualizar () {
 cd /etc/adm-lite
 chmod 777 ./*
-echo -e "${cor[3]} "¿Realmente desea actualizar su Michu-ADM?""
+echo -e "${cor[3]} "¿Realmente desea actualizar su MOD-ADM?""
 read -p " [S/N]: " -e -i n sshsn
 [[ "$sshsn" = @(s|S|y|Y) ]] && {
 [[ -e /etc/adm-lite/idioma ]] && rm /etc/adm-lite/idioma
