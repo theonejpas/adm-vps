@@ -80,7 +80,7 @@ echo -e "${cor[3]}⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸�
 echo -e "${cor[3]} |∆| ${cor[2]}$(source trans -b pt:${id} "AHORA CONFIGURE SU VPS CON EL MANUAL DE INSTALACION")"
 echo -e "${cor[5]}⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸"
 echo -e "${cor[3]} $(source trans -b pt:${id} "USE LOS COMANDOS"): menu, adm"
-echo -e "${cor[2]} $(source trans -b pt:${id} "BIENVENIDO A MICHU ADM!")"
+echo -e "${cor[2]} $(source trans -b pt:${id} "BIENVENIDO A MOD ADM!")"
 echo -e "${cor[1]}════════════❖•ೋ° 🐱 °ೋ•❖════════════════"
 echo -ne " \033[0m"
 }
